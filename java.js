@@ -39,6 +39,8 @@ var boxes=document.getElementsByClassName("box");
     boxes[1].innerHTML="我是盒子";
     boxes[2].innerHTML="我是盒子";
 
+
+    
     for(var i = 0; i< 10; i++) {
         console.log("迴圈執行次數：" + i)
     }
